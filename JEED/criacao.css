@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00192F;
+    color: #ffffff;
+}
+
+.header {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00192F;
+    font-family: 'Open Sans';
+    border-bottom: 2px solid #000000;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.sobre a {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+hr{
+    width: 97%;
+    margin-bottom: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.novo-campeonato {
+    
+    background-color: #032339;
+    padding: 40px;
+    width: 84.2%;
+    margin-left: 0px;
+    margin-top: 25px;
+
+}
+
+.novo-campeonato h1 {
+    font-size: 65px;
+    margin-bottom: 40px;
+    font-family: 'Anton';
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.novo-campeonato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.novo-campeonato label {
+    font-family: 'Anton';
+    font-size: 30px;
+    margin-left: 20px;
+   
+}
+
+.novo-campeonato input {
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.novo-campeonato .date-time {
+    display: flex;
+    width: 540px;
+}
+
+.modalidades {
+    text-align: center;
+    background-color: #032339;
+    padding: 40px;
+    width: 84.2%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.modalidades h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: 'Anton';
+}
+
+.modalidades p {
+    font-family: 'Anton';
+    font-size: 30px;
+}
+
+.modalidades .modalidade {
+    display: inline-block;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 30px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.modalidades .modalidade img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: border 0.1s;
+    box-sizing: border-box;
+}
+
+.modalidade:hover img, .modalidade.selected img {
+    border: 4px solid #7B94A5;
+    
+}
+
+#tenismesa{
+    margin-top: 0px;
+}
+
+.modalidades .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #125C70;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 250px;
+    font-family: 'Arimo';
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.modalidades .botao-criar {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.modalidades .btn:hover {
+    background-color: #7B94A5;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 500px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

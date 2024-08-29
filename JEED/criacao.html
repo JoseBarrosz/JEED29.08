@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEED</title>
+    <link rel="stylesheet" href="criacao.css">
+    <script type="text/javascript" src="criacao.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="campeonatos.html">
+                <img src="img/logoJEED.png" alt="Logo JEED">
+            </a>
+        </div>
+        <div class="sobre">
+            <a href="#footer">SOBRE</a>
+        </div>
+    </header>
+    <main>
+        <section class="novo-campeonato">
+            <h1>NOVO CAMPEONATO</h1>
+            <hr>
+            <form>
+                <label for="nome-campeonato">NOME DO <span style="color: #7B94A5;">CAMPEONATO</span></label>
+                <input type="text" id="nome-campeonato" placeholder="Digite o nome do campeonato" maxlength="25">
+
+                <label for="data-horario">DATA E <span style="color: #7B94A5;">HORÁRIO</span></label>
+                <div class="date-time">
+                    <input type="date" id="data-horario">
+                    <input type="time" id="hora-horario">
+                </div>
+
+                <label for="numero-equipes">NÚMERO DE <span style="color: #7B94A5;">EQUIPES</span></label>
+                <input type="number" id="numero-equipes" placeholder="Mínimo 2, Máximo 3" min="2" max="8">
+            </form>
+        </section>
+
+        <section class="modalidades">
+            <h2>MODALIDADES</h2>
+            <div class="modalidade" id="futsal">
+                <img src="img/futsal.png" alt="Futsal">
+                <p>FUTSAL</p>
+            </div>
+            <div class="modalidade" id="basquete">
+                <img src="img/bask.png" alt="Basquete">
+                <p>BASQUETE</p>
+            </div>
+            <div class="modalidade" id="volei">
+                <img src="img/volei.png" alt="Vôlei">
+                <p>VÔLEI</p>
+            </div>
+            <div class="modalidade" id="queimada">
+                <img src="img/queimada.png" alt="Tênis de Mesa" id="tenismesa">
+                <p>QUEIMADA</p>
+            </div>
+            <div class="botao-criar">
+                <button type="button" class="btn" id="criar-campeonato">Criar</button>
+            </div>
+        
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 JEED. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

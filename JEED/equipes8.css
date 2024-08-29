@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00192F;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00192F;
+    font-family: 'Open Sans';
+    border-bottom: 2px solid #000000;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.sobre a {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+hr{
+    width: 97%;
+    margin-bottom: 40px;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00192F;
+    
+}
+
+.equipes {
+    background-color: #032339;
+    padding: 40px;
+    width: 84.2%;
+    margin-left: 0px;
+    margin-top: 25px;
+
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-family: 'Anton';
+    font-size: 65px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Anton';
+    margin-left: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #125C70;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 250px;
+    font-family: 'Arimo';
+    margin-left: 400px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #7B94A5;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 500px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
